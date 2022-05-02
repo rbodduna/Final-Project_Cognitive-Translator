@@ -60,6 +60,6 @@ exports.translate = (req, res) => {
         return res.send(sendData)
     })
     .catch(err => {
-        console.log(err);
+        res.send("API failed wrong data")
     })
 };
