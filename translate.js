@@ -6,7 +6,7 @@ const expressJSDocSwagger = require('express-jsdoc-swagger');
 const swaggerUi = require('swagger-ui-express');
 
 let port = 3000;
-let host = 'localhost';
+let host = '143.198.168.65';
 
 
 //Initializing Swagger 
